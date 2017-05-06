@@ -21,8 +21,8 @@
         </button>
         <a class="navbar-brand" href="#">W.R. Web Development</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="#">About</a>
+            <div class="navbar-nav ml-auto nav">
+                <a class="nav-item nav-link active" href="#">About</a>
                 <a class="nav-item nav-link" href="#row2">Portfolio</a>
                 <a class="nav-item nav-link" href="#row3">Contact</a>
             </div>
@@ -134,3 +134,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
         integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
+<script>
+    $(".navbar-nav a").on("click", function(){
+    $(".navbar-nav").find(".active").removeClass("active");
+    $(this).addClass("active");
+});</script>

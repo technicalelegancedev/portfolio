@@ -65,6 +65,15 @@ hr {
     background-color: #292B2B
 }
 
+@media (max-width: 1600px) {
+    p {
+        font-size: 20px;
+    }
+
+    .socialMediaIcon {
+        padding: 0px 5px;
+    }
+}
 
 
 

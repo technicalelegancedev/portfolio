@@ -65,13 +65,8 @@ hr {
     background-color: #292B2B
 }
 
-#brand {
-    color: #F6F6F6;
-    font-size: 24px;
-}
-
 @media (max-width: 1600px) {
-    #brand {
+    .navbar-brand {
         font-size: 14px;
     }
     p {

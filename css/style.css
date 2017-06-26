@@ -68,7 +68,8 @@ hr {
 @media (max-width: 1600px) {
     .navbar-brand {
         font-size: 18px;
-        margin-bottom: 2px;
+/*         margin-bottom: 2px; */
+        margin-bottom: 5px;
     }
     
     p {

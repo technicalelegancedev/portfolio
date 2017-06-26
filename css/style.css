@@ -71,7 +71,7 @@ hr {
 
 @media (max-width: 1600px) {
     #brand {
-        width: 75%;
+        font-size: 14px;
     }
     p {
         font-size: 20px;

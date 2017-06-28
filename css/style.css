@@ -30,7 +30,7 @@ p {
 }
 
 .headShots {
-    padding: 30px 20px;
+    /*padding: 30px 20px;*/
     max-height: 300px;
 }
 
@@ -45,7 +45,7 @@ p {
 }
 
 .row {
-    padding-top: 30px;
+    padding: 30px 5px;
 }
 
 #aboutBar {
@@ -60,6 +60,10 @@ p {
 #automationBar {
     border: 0 #292B2B;
     border-top: 4px double #292B2B;
+}
+
+#row1 {
+    /*padding-top: 0px;*/
 }
 
 #row1, #row3 {

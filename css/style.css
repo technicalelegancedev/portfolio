@@ -25,12 +25,12 @@ p {
 .basicHeader {
     font: 40px serif, Georgia;
     color: #F6F6F6;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 15px;
 }
 
 .headShots {
-    padding: 15px 20px;
+    padding: 20px 20px;
     max-height: 300px;
 }
 
@@ -45,7 +45,8 @@ p {
 }
 
 .row {
-    padding: 30px 5px;
+    /* this is for the navigation jumping, this added with individual item padding is always 60 for the top */
+    padding-top: 20px;
 }
 
 #aboutBar {
@@ -60,10 +61,6 @@ p {
 #automationBar {
     border: 0 #292B2B;
     border-top: 4px double #292B2B;
-}
-
-#row1 {
-    /*padding-top: 0px;*/
 }
 
 #row1, #row3 {
@@ -88,6 +85,10 @@ p {
 
 p:first-child {
     padding-bottom: 15px;
+}
+
+#footer {
+    /*padding-bottom: -25px;*/
 }
 
 

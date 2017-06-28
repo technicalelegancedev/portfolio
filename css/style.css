@@ -4,34 +4,29 @@ body {
     word-wrap: break-word;
 }
 
-h1 {
-    font: 40px serif, Georgia;
-    color: #F6F6F6;
-    padding-top: 50px;
-    padding-bottom: 15px;
-}
-
 p {
     color: #292B2B;
     font: 24px serif, Georgia;
 }
 
-hr {
-    border: 0;
-    border-top: 4px double #292B2B;
-    width: 80%;
-}
-
 .padImages {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     padding-left: 25px;
     padding-right: 25px;
 }
 
 .seperatorBar {
-    color: #292B2B;
-    padding-top: 5px;
     padding-bottom: 10px;
+    border: 0 #F6F6F6;
+    border-top: 4px double #F6F6F6;
+    width: 80%;
+}
+
+.basicHeader {
+    font: 40px serif, Georgia;
+    color: #F6F6F6;
+    padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .headShots {
@@ -40,7 +35,7 @@ hr {
 }
 
 .socialMediaIcon {
-    padding: 20px 30px;
+    padding: 20px 50px;
 }
 
 #container {
@@ -49,28 +44,55 @@ hr {
     height: 100%;
 }
 
-#portfolioBar {
-    border: 0 #F6F6F6;
-    border-top: 4px double #F6F6F6;
-    width: 80%;
-}
-
-#row1, #row3 {
-    background-color: #F6F6F6;
+.row {
     padding-top: 30px;
 }
 
-
-#row2 {
-    background-color: #292B2B
+#aboutBar {
+    border-color: #292B2B;
+    padding-bottom: 0px;
 }
+
+#automationHeader {
+    color: #292B2B
+}
+
+#automationBar {
+    border: 0 #292B2B;
+    border-top: 4px double #292B2B;
+}
+
+#row1, #row3 {
+     background-color: #F6F6F6;
+ }
+
+#row1, #row3 p {
+    color: #292B2B;
+}
+
+#row2, #row4 {
+    background-color: #292B2B;
+}
+
+#row2, #row4  p {
+    color: #F6F6F6;
+}
+
+#row3 img {
+    box-shadow: 5px 5px 5px grey;
+}
+
+p:first-child {
+    padding-bottom: 15px;
+}
+
 
 @media (max-width: 1600px) {
     .navbar-brand {
         font-size: 18px;
         margin-bottom: 5px;
     }
-    
+
     p {
         font-size: 20px;
     }
@@ -79,8 +101,3 @@ hr {
         padding: 0px 5px;
     }
 }
-
-
-
-
-

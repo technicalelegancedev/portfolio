@@ -25,7 +25,7 @@ p {
 .basicHeader {
     font: 40px serif, Georgia;
     color: #F6F6F6;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 15px;
 }
 
@@ -103,5 +103,9 @@ p:first-child {
 
     .socialMediaIcon {
         padding: 0px 5px;
+    }
+
+    #row4 {
+        padding-top: 40px;
     }
 }

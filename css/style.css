@@ -87,6 +87,10 @@ p:first-child {
     padding-bottom: 15px;
 }
 
+.whitePar {
+    color: #F6F6F6;
+}
+
 #footer {
     /*padding-bottom: -25px;*/
 }

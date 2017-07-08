@@ -113,4 +113,8 @@ p:first-child {
     #row4 {
         padding-top: 40px;
     }
+    
+    .basicHeader {
+        font-size: 24px;
+    }
 }
